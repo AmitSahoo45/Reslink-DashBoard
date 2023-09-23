@@ -6,7 +6,6 @@ function App() {
 
   return (
     <main className='main-box'>
-      Demo for UI
     </main>
   )
 }
