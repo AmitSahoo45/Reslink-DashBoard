@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: var(--tertiary)
+}
+
+.logo path {
+    fill: var(--primary)
+}
