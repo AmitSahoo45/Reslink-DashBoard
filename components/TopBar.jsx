@@ -37,7 +37,7 @@ const TopBar = ({ handleDrawerToggle }) => {
 
                 {/* Project Bar */}
                 <Box sx={{
-                    flex: ['0.5', '0.5', '0.4', '0.25'], display: 'flex', justifyContent: ['space-between', 'space-between', 'flex-end', 'flex-end'], alignItems: 'center', flexDirection: ['row-reverse', 'row-reverse', 'row', 'row'], mb: [1.5, 1.5, 0, 0], width: ['100%', '100%', 'unset', 'unset']
+                    flex: ['0.5', '0.5', '0.4', '0.25'], display: 'flex', justifyContent: ['space-between', 'space-between', 'flex-end', 'flex-end'], alignItems: 'center', flexDirection: ['row-reverse', 'row-reverse', 'row', 'row'], mb: [1.5, 1.5, 0, 0], width: ['100%', '100%', '100%', '100%']
                 }}>
                     <Badge color="error" variant="dot" sx={{ mr: '0.6rem' }}>
                         <Notifications />
@@ -53,8 +53,8 @@ const TopBar = ({ handleDrawerToggle }) => {
                                 display: ['none', 'none', 'block', 'block']
                             }}
                         >
-                            <Add sx={{ color: '#FFFFFF' }} />
-                            <Typography sx={{ color: '#FFFFFF', ml: 1, fontSize: '0.5rem', fontFamily: 'Poppins' }}>Create New Project</Typography>
+                            {/* <Add sx={{ color: '#FFFFFF' }} /> */}
+                            <Typography sx={{ color: '#FFFFFF', fontSize: '0.5rem', fontFamily: 'Poppins', py: 1 }}>Create New Project</Typography>
                         </Button>
                     </Box>
 

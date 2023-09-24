@@ -87,7 +87,7 @@ function App(props) {
             justifyContent: 'center', alignItems: 'center',
             background: '#3FA268', boxShadow: '0px 1px 2px rgba(16, 24, 40, 0.05)', borderRadius: 25,
             border: '1px #3FA268 solid',
-            display: ['block', 'block', 'none', 'none'], 
+            display: ['block', 'block', 'none', 'none'],
           }}
         >
           <Add sx={{ color: '#FFFFFF', display: 'flex', justifyContent: 'center', alignItems: 'center', m: 0 }} />
