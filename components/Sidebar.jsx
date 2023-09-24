@@ -13,7 +13,7 @@ const Sidebar = () => {
             background: 'linear-gradient(0deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), linear-gradient(0deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02))',
             justifyContent: 'space-between',
             flexDirection: 'column',
-            height: '100%', width: '100%',
+            height: '100%', width: ['99%', '99%', '100%', '100%'],
             p: 2,
             px: [0, 0, 2, 2],
             borderRight: '1px solid #3d3d3d',
