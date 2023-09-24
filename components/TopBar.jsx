@@ -30,7 +30,7 @@ const TopBar = ({ handleDrawerToggle }) => {
 
                 <Box component='div' sx={{ mx: 'auto', display: ['block', 'block', 'none', 'none'], my: 1 }}>
                     <Box sx={{ width: '120px' }} component='div' >
-                        <img alt="Logo" src="/public/logo.svg" className='logoclass' />
+                        <img alt="Logo" src="/logo.svg" className='logoclass' />
                     </Box>
                 </Box>
 
