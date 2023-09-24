@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Badge, Box, Button, Input, Typography } from "@mui/material"
 import { Notifications, Search, Add, Menu } from '@mui/icons-material';
+import { Logo } from "../src/hooks/popover";
 
 const TopBar = ({ handleDrawerToggle }) => {
     const [search, setSearch] = useState('')
@@ -30,7 +31,8 @@ const TopBar = ({ handleDrawerToggle }) => {
 
                 <Box component='div' sx={{ mx: 'auto', display: ['block', 'block', 'none', 'none'], my: 1 }}>
                     <Box sx={{ width: '120px' }} component='div' >
-                        <img alt="Logo" src="/logo.svg" className='logoclass' />
+                        <img alt="Logo" src={Logo} className='logoclass' />
+                        {/* Logo wasn't showing up in prod so......... */}
                     </Box>
                 </Box>
 
