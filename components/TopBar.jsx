@@ -61,7 +61,7 @@ const TopBar = ({ handleDrawerToggle }) => {
                     </Box>
 
                     <Box
-                        sx={{ display: ['block', 'block', 'none', 'none'] }}
+                        sx={{ display: ['block', 'block', 'none', 'none'], cursor: 'pointer' }}
                         onClick={handleDrawerToggle}
                     >
                         <Menu sx={{ color: '#FFFFFF' }} />
