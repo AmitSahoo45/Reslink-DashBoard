@@ -1,12 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --primary: #ffffff;
-  --secondary: #0f172a;
-  --tertiary: #1e293b;
-  --accent: #94a3b8;
+  --green: #3FA268;
+  --black: #1F2129;
+  --white: #FEFEFE;
 }
 
 a {
@@ -24,34 +19,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  background: var(--secondary);
+  background: var(--black);
   color: #FFFFFF;
-}
 
-.main-box {
-  padding: 32px 50px;
-}
-
-@media screen and (max-width: 1200px) {
-  .main-box {
-    padding: 32px 50px;
-  }
-}
-
-@media screen and (max-width: 992px){
-  .main-box {
-    padding: 24px 40px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .main-box {
-    padding: 20px 30px;
-  }
-}
-
-@media screen and (max-width: 576px){
-  .main-box {
-    padding: 16px 10px;
-  }
+  font-family: 'Poppins', sans-serif;
 }
